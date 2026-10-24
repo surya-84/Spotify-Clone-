@@ -1,0 +1,257 @@
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.main{
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    background-color:black;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    width: 340px;
+    border-radius: 1rem; /*16px*/
+    margin-right: 0.5rem;
+}
+
+.main-content{
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0;
+}
+
+.music-player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    background-color: #121212;
+    line-height:2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+.nav-option:hover{
+    line-height:2.5rem;
+    opacity: 1;
+}
+
+.nav-option i {
+    background-color: #121212;
+    font-size:1.25rem;
+}
+
+.nav-option a{
+    background-color: #121212;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem; 
+}
+
+.options{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+}
+
+.lib-option img{
+    background-color: #121212;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    background-color: #121212;
+    font: size 1.25rem;
+    display: flex;
+}
+
+.icons i{
+    background-color: #121212;
+    margin-right: 1rem;
+    opacity: 0.7;  
+}
+
+.icons i:hover{
+    opacity: 1;  
+}
+
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.25rem 0 1rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.box-p1{
+    background-color: #232323;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.box-p2{
+    background-color: #232323;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    margin-top: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.badge{
+    
+    color: #121212;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+.dark-badge{
+    background-color: #000;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10; 
+
+}
+
+.sticky-nav-icons
+{
+    background-color: #121212;
+    margin-left: 0.75rem;
+    align-items: center;
+}
+
+
+
+.sticky-nav-options{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options button{
+    margin-right: 1rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.badge .nav-item .dark-badge{
+    margin-bottom: 5px;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity:0.8;
+
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid #fff;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+}
+ .album{
+    width: 25%;
+ }
+
+ .player{
+    width:50%;
+ }
+
+.controls{
+    width: 25%;
+}
